@@ -1,0 +1,28 @@
+.calculator {
+    background-color: rgb(111, 240, 218);
+    display: block;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+body{
+    background-color: aqua;
+}
+
+.display {
+    grid-column: span 4;
+    background-color: #fc9d9d;
+    padding: 10px;
+    font-size: 24px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Add more styling as desired */
